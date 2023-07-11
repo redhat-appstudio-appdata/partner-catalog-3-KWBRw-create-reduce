@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-ziy1
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-3/partner-catalog-ziy1@sha256:4c3be150d415acc296a3d4bf9c70b0a33ee02f278130090a0b128cc3d87e3303
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-3/partner-catalog-ziy1@sha256:20872d1f1ca4145c752b83e969c29f13ca74a558108a81e3de8c18ad957abfc4
         name: my-java-springboot
         resources: {}
 status: {}
